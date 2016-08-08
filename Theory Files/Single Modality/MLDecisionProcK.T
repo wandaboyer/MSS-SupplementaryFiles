@@ -40,7 +40,7 @@ TrueAt (1,1);
 
 ! s1:Subformula s2:Subformula w:World : ( SameAtom (s1, s2)  => ( TrueAt (s1, w) <=> TrueAt (s2, w) ) );
 
-// Semantics of Falsum - BROKEN. How can I tell Enfragmo that any subformula labelled 'false' should never be true at any world?!
+// Semantics of Falsum
 ! s:Subformula w:World : ( (Falsum (s) ) => ( ~ ( TrueAt (s,w) ) ) );
 //! s:Subformula w:World : ( (Atom(s) & Falsum (s)) => ( ~ ( TrueAt (s,w) ) & FalseAtoms (s,w) ) );
 
