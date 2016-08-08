@@ -1,0 +1,28 @@
+<Main>
+Parsing is finished!
+c running SatElite... done.
+c solved during preprocessing!
+<Satisfiable/>
+<TimingInfo>
+<Grounding Time= "0.000s"/>
+<MakeCNF Time= "0.000s"/>
+<Solving Time= "0.000s"/>
+<SolutionProcessing Time= "0.000s"/>
+</TimingInfo>
+<ToBePrintedPredicates>
+<PredicateInfo>
+<PredicateSymbol><BasicInfo Name='TrueAt' IsGiven= '1' ToBePrinted= '0'/><TypeInfoCollection><IntTypeInfo Name='Subformula'/><IntTypeInfo Name='World'/></TypeInfoCollection></PredicateSymbol>
+<DataSet Name= 'TrueAt' TypeSize= '2' >
+<ARow><IntValue Name= '1'/><IntValue Name= '1'/><True/></ARow>
+<ARow><IntValue Name= '2'/><IntValue Name= '1'/><True/></ARow>
+<ARow><IntValue Name= '3'/><IntValue Name= '1'/><True/></ARow>
+<ARow><IntValue Name= '5'/><IntValue Name= '1'/><True/></ARow>
+</DataSet>
+</PredicateInfo>
+<PredicateInfo>
+<PredicateSymbol><BasicInfo Name='Accessible' IsGiven= '1' ToBePrinted= '0'/><TypeInfoCollection><IntTypeInfo Name='World'/><IntTypeInfo Name='World'/></TypeInfoCollection></PredicateSymbol>
+<DataSet Name= 'Accessible' TypeSize= '2' >
+</DataSet>
+</PredicateInfo>
+</ToBePrintedPredicates>
+</Main>

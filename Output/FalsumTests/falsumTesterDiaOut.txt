@@ -1,0 +1,13 @@
+<Main>
+Parsing is finished!
+c running SatElite... done.
+c solved during preprocessing!
+<Unsatisfiable/>
+<TimingInfo>
+<Grounding Time= "0.000s"/>
+<MakeCNF Time= "0.000s"/>
+<Solving Time= "0.000s"/>
+<SolutionProcessing Time= "0.000s"/>
+</TimingInfo>
+Unsatisfiable
+</Main>

@@ -1,0 +1,23 @@
+// Simply remove commenting to include the desired frame correspondents.
+
+// Transitive
+//! w1: World w2: World w3: World: ( Accessible (w1,w2) & Accessible (w2,w3) => Accessible (w1,w3) );
+
+// Euclidean
+//! w1: World w2: World w3: World: ( ( Accessible (w1,w2) & Accessible (w1,w3) ) => Accessible (w2,w3) );
+
+// Symmetric
+//! w1:World w2:World : ( Accessible (w1,w2) => Accessible (w2,w1) );
+
+// Serial
+! w1: World : ? w2: World : ( Accessible (w1,w2) );
+
+// Reflexive
+//! w1: World : ( Accessible (w1,w1) );
+
+// Anti-reflexive
+//? w1: World : ( ~Accessible (w1,w1) );
+
+// Anti-symmetric
+//! w1:World : ? w2:World : ( Accessible (w1, w2) => ~Accessible (w2,w1) );
+

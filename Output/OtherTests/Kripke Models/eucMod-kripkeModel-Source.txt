@@ -1,0 +1,6 @@
+digraph {
+	graph [nodesep=1.0]
+	edge [minlen=2.0]
+			1 -> 1
+		1 [label=3 xlabel=w1]
+}
